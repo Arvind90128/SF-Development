@@ -1,0 +1,18 @@
+<template>
+    <div class={headerClass}>
+        <template if:true={showIcon}>
+            <lightning-icon 
+                icon-name={iconName} 
+                alternative-text={title} 
+                size={iconSize} 
+                class="icon">
+            </lightning-icon>
+        </template>
+        <h2 class={titleDisplayClass}>
+            {title}
+            <template if:true={hasCount}>
+                <span class={titleDisplayClass}> {countDisplay}</span>
+            </template>
+        </h2>
+    </div>
+</template>

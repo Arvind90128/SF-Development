@@ -1,0 +1,36 @@
+.section-title-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #03234d;
+}
+
+.icon {
+    flex-shrink: 0;
+}
+
+.count-display {
+    font-weight: 400;
+    color: #706e6b;
+    font-size: 0.875rem;
+}
+
+/* Variant styles */
+.section-header-success .section-title {
+    color: #04844b;
+}
+
+.section-header-warning .section-title {
+    color: #fe9339;
+}
+
+.section-header-error .section-title {
+    color: #ea001e;
+}
